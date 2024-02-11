@@ -1,0 +1,16 @@
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    color: #7E30E1;
+    text-align: center;
+    border-radius: 5px;
+    cursor: grab;
+    box-shadow: 0 0 50px 15px #7E30E1;
+  }
+  .card {
+    animation: pulse; 
+    animation-delay: 0.9s;
+    animation-duration: 2s; /* don't forget to set a duration! */
+  }

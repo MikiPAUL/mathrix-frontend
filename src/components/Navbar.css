@@ -1,0 +1,5 @@
+.animate__heartBeat{
+    /* animation-iteration-count: infinite; */
+    animation-delay: 0.9s;
+    animation-duration: 3s;
+}
