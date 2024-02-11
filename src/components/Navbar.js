@@ -8,7 +8,7 @@ const Navbar = () => {
     <div id='navbar' style={{flexDirection:"row",background:colors.bg}}>
       <nav className="navbar navbar-light navbar-expand-lg bg-body-tertiary">
         <div id='c' className="container-fluid ">
-          <img id='nim' src={icon} alt=""/>
+          <img style={{pointerEvents:'none',}} id='nim' src={icon} alt=""/>
           <a className="navbar-brand" id='mathrix' href='/' >MATHRIX 2024</a>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span id='nbti' className="navbar-toggler-icon"></span>

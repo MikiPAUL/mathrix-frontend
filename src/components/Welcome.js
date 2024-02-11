@@ -13,9 +13,12 @@ export default function Welcome() {
           <p style={{ marginTop: 15, color: "GrayText" }}>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus atque maiores neque </p>
         </div>
         <div style={{ marginTop: 40 }}>
-          <button  style={{height:45,width:300, background: colors.buttons, fontSize: 16, borderRadius: 10 }} type="button" className="btn btn-dark">CHECK OUT THE EVENTS LIST HERE</button>
-          <div className="d-grid gap-2 col-6 mx-auto" style={{ flexDirection: "row", padding: 15 }}></div>
-          <button  style={{height:45,width:300, background: colors.buttons, fontSize: 16, borderRadius: 10 }} type="button" className="btn btn-dark">REGISTER/LOGIN</button>
+          <div className="row" style={{padding:15,flex:1,justifyContent:"center",alignItems:"center"}}>
+            <button id='bN' style={{ width:400,height:45,background: colors.buttons, fontSize: 16, borderRadius: 10 }} type="button" className="btn btn-dark">CHECK OUT THE EVENTS LIST HERE</button>
+          </div>
+          <div className="row" style={{padding:15,flex:1,justifyContent:"center",alignItems:"center"}}>
+            <button id='bN' style={{ width:400,height:45,background: colors.buttons, fontSize: 16, borderRadius: 10 }} type="button" className="btn btn-dark">REGISTER/LOGIN</button>
+          </div>
         </div>
       </div>
     </div>
