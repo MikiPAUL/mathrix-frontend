@@ -4,7 +4,7 @@ import "./Welcome.css"
 
 export default function Welcome() {
   return (
-    <div style={{ flex: 1, alignItems: "center", justifyContent: "center",flexDirection:"row"}}>
+    <div id="welcome" style={{ flex: 1, alignItems: "center", justifyContent: "center",flexDirection:"row"}}>
       <div>
         <h1 style={{ color: "white", fontWeight: "bold",marginBottom:15 }}>MATHRIX 2024</h1>
         <h1 style={{ color: "white", fontWeight: "bold" }}>Inter College Math-Tech</h1>
