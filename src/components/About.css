@@ -14,3 +14,25 @@
     animation-delay: 0.9s;
     animation-duration: 2s; /* don't forget to set a duration! */
   }
+  #li{
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+  }
+@media only screen and (max-width:767px){
+  h1{
+    font-size: 30px;
+    text-align: center;
+  }
+  h5{
+    font-size: 18px;
+    text-align: justify;
+  }
+  p{
+    font-size: 15px;
+    text-align: justify;
+  }
+  #li{
+    justify-content: center;
+  }
+}

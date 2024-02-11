@@ -1,3 +1,19 @@
-
-@media only screen and (max-width:767px){
+#h1tags{
+    color: white;
+    font-weight: bold;
+}
+#bN{
+    height: 45;
+    width: 400;
+    font-size: 16px;
+    border-radius: 10px;
+}
+@media only screen and (max-width:992px){
+    #h1tags{
+        font-size: 30px;
+    }
+    #bN{
+        height: 45;
+        width: 400;
+    }
 }

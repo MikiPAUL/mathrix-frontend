@@ -1,0 +1,21 @@
+
+@media only screen and (min-width:400px) and (max-width:449px){
+    #card{
+        margin-inline-start: 70px;
+    }
+}
+@media only screen and (min-width:450px) and (max-width:489px){
+    #card{
+        margin-inline-start: 80px;
+    }
+}
+@media only screen and (min-width:490px) and (max-width:499px){
+    #card{
+        margin-left: 90px;
+    }
+}
+@media only screen and (min-width:500px) and (max-width:520px){
+    #card{
+        margin-left: 110px;
+    }
+}
