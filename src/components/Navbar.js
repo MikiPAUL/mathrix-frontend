@@ -23,7 +23,7 @@ const Navbar = () => {
                 <a className="nav-link" style={{color:colors.grey}} href="/events">EVENTS</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" style={{color:colors.grey}} href="/schedules">SCHEDULE</a>
+                <a className="nav-link" style={{color:colors.grey}} href="/schedule">SCHEDULE</a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" style={{color:colors.grey}} href="/workshop">WORKSHOP</a>
