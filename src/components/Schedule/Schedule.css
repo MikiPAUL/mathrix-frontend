@@ -1,9 +1,9 @@
-body {
+/* body {
   background: rgb(0, 0, 0);
   width: 100vw;
   color: #fff;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
+} */
 
 .schedule-container {
   font-size: large;
@@ -21,6 +21,7 @@ body {
   justify-content: space-between;
   font-weight:bolder;
   margin-bottom: 20px;
+  color: #e4e4e4;
 }
 
 .schedule-header > div {

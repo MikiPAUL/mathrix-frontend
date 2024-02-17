@@ -21,7 +21,7 @@ const Schedule = () => {
     return (
         <>
             <div className="schedule-container">
-                <h1>SCHEDULE</h1>
+                <h1 style={{fontWeight:"bolder",fontSize:50}}>SCHEDULE</h1>
                 <div className="schedule-header">
                     <div>Date</div>
                     <div>Event</div>
@@ -31,7 +31,7 @@ const Schedule = () => {
                 {scheduleData.map((item, index) => (
                     <div key={index} className="schedule-item">
                         <div>{item.date}</div>
-                        <div>{item.eventName}</div>
+                        <div>{item.speaker}</div>
                         <div>{item.time}</div>
                         <div>{item.venue}</div>
                     </div>
