@@ -17,7 +17,7 @@ function EventScreen() {
 			if (eventResponse.error) {
 				redirect('/error');
 			}
-			setEvents(eventResponse.data.events);
+			setEvents(eventResponse.data.data.events);
 		};
 		fetchEvents();
 	}, []);
@@ -36,7 +36,7 @@ function EventScreen() {
 			<div className="row row-cols-1 row-cols-md-2 g-4">
 				{events.map((e) => (
 					<>
-						<EventCard key={e.key} title={e.title} description={e.description} img={e.img} url={e.url} setIsOpen={setIsOpen} setEvent={setEvent} />
+						<EventCard key={e.key} title={e.title} description={e.description} img={e.img} posterUrl={e.posterUrl} setIsOpen={setIsOpen} setEvent={setEvent} />
 					</>
 				))}
 			</div>
