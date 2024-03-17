@@ -1,14 +1,14 @@
 import React from 'react';
 import colors from '../constants/colors';
-import icon from '../favicon.png';
 import './Navbar.css';
+import mathLogo from './../assets/index';
 
 const Navbar = () => {
 	return (
 		<div id="navbar" style={{ flexDirection: 'row', background: colors.bg }}>
 			<nav className="navbar navbar-light navbar-expand-lg bg-body-tertiary">
 				<div id="c" className="container-fluid ">
-					<img style={{ pointerEvents: 'none' }} id="nim" src={icon} alt="" />
+					<img style={{ pointerEvents: 'none' }} id="nim" src={mathLogo} alt="" />
 					<a className="navbar-brand" id="mathrix" href="/">
 						MATHRIX 2024
 					</a>
