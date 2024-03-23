@@ -4,6 +4,7 @@ import './EventCard.css';
 const EventCard = (props) => {
 	const handleClick = () => {
 		props.setIsOpen(true);
+		window.scrollTo({ top: 0, behavior: 'smooth' });
 		console.log(props);
 		props.setEvent({
 			title: props.title,
@@ -18,14 +19,16 @@ const EventCard = (props) => {
 					<div
 						id="card"
 						className="card animate__animated animate__flip animate__delay-0.9s"
-						style={{ width: 275, cursor: 'pointer', backgroundColor: '#291a39', borderWidth: 5, borderColor: '#7e36c7' }}
+						style={{ height: 400, width: 275, cursor: 'pointer', backgroundColor: '#291a39', borderWidth: 5, borderColor: '#7e36c7' }}
 					>
 						<img pointer style={{ pointerEvents: 'none', height: 150 }} src={props.posterUrl} className="card-img-top" alt="..." />
 						<div className="card-body" style={{ color: 'white', textAlign: 'start' }}>
 							<h5 className="card-title" style={{ fontSize: 18 }}>
 								{props.title}
 							</h5>
-							<p className="card-text">{props.description}</p>
+							<p className="card-text" style={{ height: 150, overflow: 'hidden' }}>
+								{props.description}
+							</p>
 						</div>
 					</div>
 				</div>

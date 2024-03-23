@@ -19,27 +19,27 @@ const Navbar = () => {
 						<div className="collapse navbar-collapse" id="navbarNav">
 							<ul className="navbar-nav">
 								<li className="nav-item">
-									<a className={'nav-link'} style={{ color: colors.grey }} href="/about" aria-current="page">
+									<a className={'nav-link'} style={{ fontSize: 20, color: colors.grey }} href="/about" aria-current="page">
 										ABOUT
 									</a>
 								</li>
 								<li className="nav-item">
-									<a className="nav-link" style={{ color: colors.grey }} href="/events">
+									<a className="nav-link" style={{ fontSize: 20, color: colors.grey }} href="/events">
 										EVENTS
 									</a>
 								</li>
 								<li className="nav-item">
-									<a className="nav-link" style={{ color: colors.grey }} href="/schedule">
+									<a className="nav-link" style={{ fontSize: 20, color: colors.grey }} href="/schedule">
 										SCHEDULE
 									</a>
 								</li>
 								<li className="nav-item">
-									<a className="nav-link" style={{ color: colors.grey }} href="/workshop">
+									<a className="nav-link" style={{ fontSize: 20, color: colors.grey }} href="/workshop">
 										WORKSHOP
 									</a>
 								</li>
 								<li className="nav-item">
-									<a className="nav-link" style={{ color: colors.grey }} href="/">
+									<a className="nav-link" style={{ fontSize: 20, color: colors.grey }} href="/">
 										CONTACTS
 									</a>
 								</li>

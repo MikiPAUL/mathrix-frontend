@@ -36,3 +36,17 @@
 		justify-content: center;
 	}
 }
+
+.container {
+	width: 100%;
+}
+@media (min-width: 1270px) {
+	.container {
+		max-width: 1270px;
+	}
+}
+@media (min-width: 2768px) {
+	.container {
+		max-width: 2768px;
+	}
+}
