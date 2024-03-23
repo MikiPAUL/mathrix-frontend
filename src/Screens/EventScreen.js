@@ -23,7 +23,7 @@ function EventScreen() {
 	}, []);
 	return (
 		<div
-			className="relative container animate__animated animate__pulse"
+			className="container animate__animated animate__pulse"
 			style={{
 				marginTop: 50,
 				backgroundImage: 'linear-gradient(to bottom right, rgba(10,10,25,0.9), rgba(255, 255, 255, 0.143))',
@@ -33,7 +33,7 @@ function EventScreen() {
 				padding: 50,
 			}}
 		>
-			<div className="row row-cols-1 row-cols-md-2 g-4">
+			<div className="row row-cols-1 row-cols-md-2 g-3">
 				{events.map((e) => (
 					<>
 						<EventCard key={e.key} title={e.title} description={e.description} img={e.img} posterUrl={e.posterUrl} setIsOpen={setIsOpen} setEvent={setEvent} />

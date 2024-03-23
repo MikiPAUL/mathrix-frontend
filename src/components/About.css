@@ -1,38 +1,52 @@
 .card {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: white;
-    color: #7E30E1;
-    text-align: center;
-    border-radius: 5px;
-    cursor: grab;
-    box-shadow: 0 0 50px 15px #7E30E1;
-  }
-  .card {
-    animation: pulse; 
-    animation-delay: 0.9s;
-    animation-duration: 2s; /* don't forget to set a duration! */
-  }
-  #li{
-    flex: 1;
-    align-items: center;
-    justify-content: center;
-  }
-@media only screen and (max-width:767px){
-  h1{
-    font-size: 30px;
-    text-align: center;
-  }
-  h5{
-    font-size: 18px;
-    text-align: justify;
-  }
-  p{
-    font-size: 15px;
-    text-align: justify;
-  }
-  #li{
-    justify-content: center;
-  }
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: white;
+	color: #7e30e1;
+	text-align: center;
+	border-radius: 5px;
+	cursor: grab;
+	box-shadow: 0 0 50px 15px #7e30e1;
+}
+.card {
+	animation: pulse;
+	animation-delay: 0.9s;
+	animation-duration: 2s; /* don't forget to set a duration! */
+}
+#li {
+	flex: 1;
+	align-items: center;
+	justify-content: center;
+}
+@media only screen and (max-width: 767px) {
+	h1 {
+		font-size: 30px;
+		text-align: center;
+	}
+	h5 {
+		font-size: 18px;
+		text-align: justify;
+	}
+	p {
+		font-size: 25px;
+		text-align: justify;
+	}
+	#li {
+		justify-content: center;
+	}
+}
+
+.container {
+	width: 100%;
+}
+@media (min-width: 1270px) {
+	.container {
+		max-width: 1270px;
+	}
+}
+@media (min-width: 2768px) {
+	.container {
+		max-width: 2768px;
+	}
 }

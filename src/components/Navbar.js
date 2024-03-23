@@ -1,14 +1,14 @@
 import React from 'react';
 import colors from '../constants/colors';
-import icon from '../favicon.png';
 import './Navbar.css';
+import mathLogo from './../assets/index';
 
 const Navbar = () => {
 	return (
 		<div id="navbar" style={{ flexDirection: 'row', background: colors.bg }}>
 			<nav className="navbar navbar-light navbar-expand-lg bg-body-tertiary">
 				<div id="c" className="container-fluid ">
-					<img style={{ pointerEvents: 'none' }} id="nim" src={icon} alt="" />
+					<img style={{ pointerEvents: 'none' }} id="nim" src={mathLogo} alt="" />
 					<a className="navbar-brand" id="mathrix" href="/">
 						MATHRIX 2024
 					</a>
@@ -19,27 +19,27 @@ const Navbar = () => {
 						<div className="collapse navbar-collapse" id="navbarNav">
 							<ul className="navbar-nav">
 								<li className="nav-item">
-									<a className={'nav-link'} style={{ color: colors.grey }} href="/about" aria-current="page">
+									<a className={'nav-link'} style={{ fontSize: 20, color: colors.grey }} href="/about" aria-current="page">
 										ABOUT
 									</a>
 								</li>
 								<li className="nav-item">
-									<a className="nav-link" style={{ color: colors.grey }} href="/events">
+									<a className="nav-link" style={{ fontSize: 20, color: colors.grey }} href="/events">
 										EVENTS
 									</a>
 								</li>
 								<li className="nav-item">
-									<a className="nav-link" style={{ color: colors.grey }} href="/schedule">
+									<a className="nav-link" style={{ fontSize: 20, color: colors.grey }} href="/schedule">
 										SCHEDULE
 									</a>
 								</li>
 								<li className="nav-item">
-									<a className="nav-link" style={{ color: colors.grey }} href="/workshop">
+									<a className="nav-link" style={{ fontSize: 20, color: colors.grey }} href="/workshop">
 										WORKSHOP
 									</a>
 								</li>
 								<li className="nav-item">
-									<a className="nav-link" style={{ color: colors.grey }} href="/">
+									<a className="nav-link" style={{ fontSize: 20, color: colors.grey }} href="/">
 										CONTACTS
 									</a>
 								</li>
